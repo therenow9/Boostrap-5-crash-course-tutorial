@@ -1,0 +1,19 @@
+body::before {
+  /* pseduo selector before */
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  /* 768 is for medium screens we are adding in a little custom css to modify the email button for the news letter */
+  .news-input {
+    width: 50%;
+  }
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border: radius 10px;
+}
